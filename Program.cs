@@ -40,6 +40,9 @@ namespace CS_Switch_ConsoleApp
                 case "MEXICO":
                     Console.WriteLine("Mexico uses the Mecican Peso.");
                     break;
+                default:
+                    Console.WriteLine("I'm sorry, but I do not know what that countries currency is.");
+                    break;
             }
 
             return 0;
